@@ -1,6 +1,6 @@
 {
   "name": "env-file-checker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Check env file against mandatory variables present in package.json file.",
   "main": "index.js",
   "scripts": {
