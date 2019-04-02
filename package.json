@@ -1,6 +1,6 @@
 {
   "name": "env-file-checker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check env file against mandatory variables present in package.json file.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
   },
   "author": "shreynik",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shreynik/env-file-checker.git"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "dotenv": "^7.0.0",
