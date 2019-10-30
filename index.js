@@ -15,6 +15,7 @@ if (Array.isArray(getEnvironmemntVariables) === true) {
       process.exit(1);
     }
   });
-  console.log(success('Env file check passed'));
+  console.log(success('ENV file check passed'));
+  process.exit(0);
 }
-console.log(success('Env file check passed'));
+console.log(success('ENV file not used in this repository'));
